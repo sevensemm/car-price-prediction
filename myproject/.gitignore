@@ -20,15 +20,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# ML Models
-*.pkl
-*.cbm
-*.h5
-*.pth
-*.joblib
-
-# Временные файлы
-*.png
-*.jpg
-*.csv
