@@ -29,5 +29,31 @@
   "age": 3,
   "nrOfPictures": 0
 }
+```
+### Выборка насчитывала около 370 000 записей
+<img width="1088" height="607" alt="image" src="https://github.com/user-attachments/assets/7b27477b-0d2d-4867-91d2-33f7642fd044" />
 
-Выборка насчитывала около 370 000 записей
+### Установка
+
+```bash
+# 1. Клонировать репозиторий
+git clone https://github.com/ваш-username/car-price-prediction.git
+cd car-price-prediction
+
+# 2. Создать виртуальное окружение
+python -m venv venv
+
+# 3. Активировать окружение
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# 4. Установить зависимости
+pip install -r requirements.txt
+
+# 5. Применить миграции
+python manage.py migrate
+
+# 6. Запустить сервер
+python manage.py runserver
