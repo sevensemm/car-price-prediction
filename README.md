@@ -57,3 +57,7 @@ python manage.py migrate
 
 # 6. Запустить сервер
 python manage.py runserver
+```
+
+
+Ссылка на создание модели - https://colab.research.google.com/drive/167uVOHY655_uJf95GJvxALfhKyCY7Tns?usp=sharing
