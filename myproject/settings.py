@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-gd=a79hkrd32sg7eotsdyj^*s^w9oyf_1fmfti_+!lnn7@c__u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'car-price-prediction-sevensemm.onrender.com',  # твой домен Render
+    'localhost',  # для локальной разработки
+    '127.0.0.1',  # для локальной разработки
+]
 
 
 # Application definition
