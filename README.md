@@ -61,4 +61,5 @@ python manage.py runserver
 
 
 Ссылка на создание модели - https://colab.research.google.com/drive/167uVOHY655_uJf95GJvxALfhKyCY7Tns?usp=sharing
+
 Ссылка на сервер - https://car-price-prediction-sevensemm.onrender.com/
